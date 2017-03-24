@@ -1,0 +1,39 @@
+{
+    "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vmSku": {
+            "value": "Standard_DS2_V2"
+        },
+        "imageId": {
+            "value": "/subscriptions/SUB-ID/resourceGroups/RG-NAME/providers/Microsoft.Compute/images/IMAGE-NAME"
+        },
+        "vmssName": {
+            "value": "tstshm"
+        },
+        "instanceCount": {
+            "value": 2
+        },
+        "minimumVM": {
+            "value": 1
+        },
+        "maximumVM": {
+            "value": 5
+        },
+        "adminUsername": {
+            "value": "YOURUSER"
+        },
+        "adminPassword": {
+            "value": "YOUPASSWORDHERE"
+        },
+        "appGtwSubnet": {
+            "value": "appgtw-subnet"
+        },
+        "vmssSubnet": {
+            "value": "vmss-subnet"
+        },
+        "vnetName": {
+            "value": "MAIN-VNET"
+        }
+    }
+}
