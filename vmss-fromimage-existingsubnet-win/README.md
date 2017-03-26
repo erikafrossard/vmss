@@ -1,4 +1,4 @@
-### Autoscale Linux with a Custom Image ###
+### Autoscale Windows with a Custom Image ###
 
 Simple self-contained Linux autoscale example 
 
