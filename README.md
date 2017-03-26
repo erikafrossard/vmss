@@ -1,2 +1,1 @@
-# vmss
-VM Scale Set Azure
+# Azure
