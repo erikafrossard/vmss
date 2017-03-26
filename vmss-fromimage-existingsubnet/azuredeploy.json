@@ -90,7 +90,7 @@
         "nicName": "[concat(variables('namingInfix'), 'nic')]",
         "ipConfigName": "[concat(variables('namingInfix'), 'ipconfig')]",
         "frontEndIPConfigID": "[concat(variables('lbID'),'/frontendIPConfigurations/loadBalancerFrontEnd')]",
-        "osType": "Linux",
+        "osType": "Windows",
         "insightsApiVersion": "2015-04-01",
         "appGwPublicIPAddressName": "[concat(variables('namingInfix'), 'appGwPip')]",
         "appGwName": "[concat(variables('namingInfix'), 'appGw')]",
