@@ -6,7 +6,7 @@
             "value": "Standard_DS2_V2"
         },
         "imageId": {
-            "value": "/subscriptions/3e3735a9-1082-4356-bf48-325dbadf2640/resourceGroups/VMScaleSet/providers/Microsoft.Compute/images/VM-ISS-image-ScaleSet"
+            "value": "/subscriptions/YOUR-SUB/resourceGroups/RESOURCE-GROUP/providers/Microsoft.Compute/images/IMAGE-NAME"
         },
         "vmssName": {
             "value": "tstshm"
